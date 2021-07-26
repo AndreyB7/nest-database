@@ -3,7 +3,7 @@ import {Entity, PrimaryKey, Property, ManyToOne, EntityRepositoryType} from "@mi
 import {UserEntity} from "../user/user.entity";
 import {IAuth} from "./interfaces";
 
-@Entity()
+@Entity({tableName: "test1.auth"})
 export class AuthEntity {
   [EntityRepositoryType]?: IAuth;
 

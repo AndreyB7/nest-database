@@ -1,6 +1,6 @@
 import {IUser, UserRole} from "./interfaces";
 import {Enum, Entity, EntityRepositoryType, PrimaryKey, Property} from "@mikro-orm/core";
-@Entity()
+@Entity({tableName: "test1.user"})
 export class UserEntity {
   [EntityRepositoryType]?: IUser;
 

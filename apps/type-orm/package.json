@@ -56,11 +56,7 @@
   },
   "license": "MIT",
   "main": "./dist/index.js",
-  "name": "jwt-based-authorization-for-nestjs",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TrejGun/jwt-based-authorization-for-nestjs"
-  },
+  "name": "type-orm-for-nestjs",
   "scripts": {
     "build": "tsc",
     "entity:create": "npm run typeorm -- entity:create -n",
